@@ -4,7 +4,7 @@
         <description/>
         <display_name>NLU for Access Requests</display_name>
         <name>global_545a64e8db90c4107137a0f2ca9619b2_NLU_for_Access_Requests</name>
-        <state>Published</state>
+        <state/>
         <sys_class_name>sys_nlu_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-01 13:36:54</sys_created_on>
