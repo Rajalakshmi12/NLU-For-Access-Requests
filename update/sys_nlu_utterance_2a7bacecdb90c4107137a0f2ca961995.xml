@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="CreateProblem">567b68ecdb90c4107137a0f2ca9619d9</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-01 13:41:04</sys_created_on>
+        <sys_id>2a7bacecdb90c4107137a0f2ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do I open a PRB ?</sys_name>
+        <sys_package display_value="NLU for Access Requests" source="x_217576_nlu">545a64e8db90c4107137a0f2ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NLU for Access Requests">545a64e8db90c4107137a0f2ca9619b2</sys_scope>
+        <sys_update_name>sys_nlu_utterance_2a7bacecdb90c4107137a0f2ca961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-01 13:41:04</sys_updated_on>
+        <utterance>How do I open a PRB ?</utterance>
+    </sys_nlu_utterance>
+</record_update>

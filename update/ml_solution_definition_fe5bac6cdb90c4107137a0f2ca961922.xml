@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_solution_definition">
+    <ml_solution_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability>nlu_trainer</capability>
+        <current_solution_version>1</current_solution_version>
+        <dataset_language/>
+        <fields_to_compare/>
+        <input_fields/>
+        <input_filter/>
+        <lookup_window_size>30</lookup_window_size>
+        <min_records>2</min_records>
+        <output_field/>
+        <prediction_input_fields/>
+        <segmentation_field/>
+        <similarity_window_filter/>
+        <solution_label>global_545a64e8db90c4107137a0f2ca9619b2_NLU_for_Access_Requests</solution_label>
+        <solution_name>ml_global_545a64e8db90c4107137a0f2ca9619b2_nlu_for_access_requests</solution_name>
+        <sys_class_name>ml_solution_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-01 13:40:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe5bac6cdb90c4107137a0f2ca961922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>global_545a64e8db90c4107137a0f2ca9619b2_NLU_for_Access_Requests</sys_name>
+        <sys_package display_value="NLU for Access Requests" source="x_217576_nlu">545a64e8db90c4107137a0f2ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NLU for Access Requests">545a64e8db90c4107137a0f2ca9619b2</sys_scope>
+        <sys_update_name>ml_solution_definition_fe5bac6cdb90c4107137a0f2ca961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-01 13:40:32</sys_updated_on>
+        <table/>
+        <table_to_compare/>
+        <threshold>50</threshold>
+        <trainer display_value="NLU Template">3dd73663774233005d7b3882a9106128</trainer>
+        <training_frequency>every_30_days</training_frequency>
+        <update_frequency>every_15_minutes</update_frequency>
+        <use_segmentation>false</use_segmentation>
+        <word_vector_corpus/>
+    </ml_solution_definition>
+</record_update>

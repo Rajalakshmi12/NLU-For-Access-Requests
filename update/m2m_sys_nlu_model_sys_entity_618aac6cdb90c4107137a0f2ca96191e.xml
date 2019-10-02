@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_model_sys_entity">
+    <m2m_sys_nlu_model_sys_entity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <model display_value="NLU for Access Requests">658aac6cdb90c4107137a0f2ca961917</model>
+        <sys_class_name>m2m_sys_nlu_model_sys_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-01 13:36:54</sys_created_on>
+        <sys_entity display_value="LOCATION">6bff25c8777723005d7b3882a91061ae</sys_entity>
+        <sys_id>618aac6cdb90c4107137a0f2ca96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NLU for Access Requests.LOCATION</sys_name>
+        <sys_package display_value="NLU for Access Requests" source="x_217576_nlu">545a64e8db90c4107137a0f2ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NLU for Access Requests">545a64e8db90c4107137a0f2ca9619b2</sys_scope>
+        <sys_update_name>m2m_sys_nlu_model_sys_entity_618aac6cdb90c4107137a0f2ca96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-01 13:36:54</sys_updated_on>
+    </m2m_sys_nlu_model_sys_entity>
+</record_update>

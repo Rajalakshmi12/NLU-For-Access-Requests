@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="ITSM IT Issues">140e2eda0b203300a1b16c2367673af4</category>
+        <connect_queue/>
+        <description>NLU test 1</description>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "c0257fefa3f047a38b6a03902249baef": {
+      "id": "c0257fefa3f047a38b6a03902249baef",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "bb6dac33660b4a2a8efb59e7b6805da1": {
+          "id": "bb6dac33660b4a2a8efb59e7b6805da1",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "57d6e4ee9ea549a6a8506398c67aa691": {
+          "id": "57d6e4ee9ea549a6a8506398c67aa691",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "593e8667ce25446ca782db6063756aaa": {
+          "id": "593e8667ce25446ca782db6063756aaa",
+          "stepType": "Prompt",
+          "name": "Node Name",
+          "prompt": {
+            "value": "Hi",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "ff123fd62f0840e08a47f1c756c8e63e"
+        }
+      },
+      "edges": [
+        {
+          "id": "6f893be2ece34c1eb396138c0fe77e98",
+          "edgeType": "Edge",
+          "source": "bb6dac33660b4a2a8efb59e7b6805da1",
+          "target": "593e8667ce25446ca782db6063756aaa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "319724c8943647d091680c53c4983c95",
+          "edgeType": "Edge",
+          "source": "593e8667ce25446ca782db6063756aaa",
+          "target": "57d6e4ee9ea549a6a8506398c67aa691",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "68b4fc3c6682406c80ab17e07e4db97e": {
+      "id": "68b4fc3c6682406c80ab17e07e4db97e",
+      "name": "LiveAgent_mandatory_skills",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "fdcd3197c8094fd8b79fee5c9145cbb3": {
+      "id": "fdcd3197c8094fd8b79fee5c9145cbb3",
+      "name": "LiveAgent_queue",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "7611da1be0134623a02d8086464853fd": {
+      "id": "7611da1be0134623a02d8086464853fd",
+      "name": "LiveAgent_short_description",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "ff123fd62f0840e08a47f1c756c8e63e": {
+      "id": "ff123fd62f0840e08a47f1c756c8e63e",
+      "name": "node_name",
+      "label": "Node Name",
+      "varType": "string",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <live_agent>false</live_agent>
+        <name>NLU test 1</name>
+        <nlu_intent>CheckTicketStatus</nlu_intent>
+        <nlu_model>global_545a64e8db90c4107137a0f2ca9619b2_NLU_for_Access_Requests</nlu_model>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <roles>itil</roles>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-01 13:44:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>324ca060dbd0c4107137a0f2ca9619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NLU test 1</sys_name>
+        <sys_package display_value="NLU for Access Requests" source="x_217576_nlu">545a64e8db90c4107137a0f2ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NLU for Access Requests">545a64e8db90c4107137a0f2ca9619b2</sys_scope>
+        <sys_update_name>sys_cb_topic_324ca060dbd0c4107137a0f2ca9619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-01 13:45:20</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=324ca060dbd0c4107137a0f2ca9619c3"/>
+</record_update>

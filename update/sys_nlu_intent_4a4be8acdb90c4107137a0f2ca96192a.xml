@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <description>Check the ticket status</description>
+        <model display_value="NLU for Access Requests">658aac6cdb90c4107137a0f2ca961917</model>
+        <name>CheckTicketStatus</name>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-01 13:40:13</sys_created_on>
+        <sys_id>4a4be8acdb90c4107137a0f2ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckTicketStatus</sys_name>
+        <sys_package display_value="NLU for Access Requests" source="x_217576_nlu">545a64e8db90c4107137a0f2ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NLU for Access Requests">545a64e8db90c4107137a0f2ca9619b2</sys_scope>
+        <sys_update_name>sys_nlu_intent_4a4be8acdb90c4107137a0f2ca96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-01 13:40:13</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>
